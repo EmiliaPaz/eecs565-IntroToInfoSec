@@ -1,0 +1,94 @@
+EECS 565 - Project 2: Jay Offerdahl
+
+// Brute force results
+Test #1: Key length of 2, first word length of 6
+Possible key: KS --> output: CAESARSWIFEMUSTBEABOVESUSPICION
+
+Time elapsed for #1: 0.001003 seconds
+
+
+Test #2: Key length of 3, first word length of 7
+Possible key: JAY --> output: FORTUNEWHICHHASAGREATDEALOFPOWERINOTHERMATTERSBUTESPECIALLYINWARCANBRINGABOUTGREATCHANGESINASITUATIONTHROUGHVERYSLIGHTFORCES
+
+Time elapsed for #2: 0.007019 seconds
+
+
+Test #3: Key length of 4, first word length of 10
+Possible key: IWKD --> output: EXPERIENCEISTHETEACHEROFALLTHINGS
+
+Time elapsed for #3: 0.158014 seconds
+
+
+Test #4: Key length of 5, first word length of 11
+Possible key: ZIENF --> output: IMAGINATIONISMOREIMPORTANTTHANKNOWLEDGE
+
+Time elapsed for #4: 3.951686 seconds
+
+
+Test #5: Key length of 6, first word length of 9
+Possible key: HACKER --> output: EDUCATIONISWHATREMAINSAFTERONEHASFORGOTTENWHATONEHASLEARNEDINSCHOOL
+
+Time elapsed for #5: 147.139390 seconds
+
+
+Test #6: Key length of 7, first word length of 13
+Possible key: NICHOLS --> output: INTELLECTUALSSOLVEPROBLEMSGENIUSESPREVENTTHEM
+
+Time elapsed for #6: 4877.133042 seconds
+
+
+With formatting:
+
+1. Caesar's wife must be above suspicion.
+2. Fortune which has a great deal of power in other matters but especially in war can bring about great change in a situation through very slight forces.
+3. Experience is the teacher of all things.
+4. Imagination is more important than knowledge.
+5. Education is what remains after one has forgotten what one has learned in school.
+6. Intellectuals solve problems, geniuses prevent them.
+
+
+// Performance optimized results
+*****************************************************************************
+
+                               IamAHacker.exe
+
+*****************************************************************************
+Starting whole program timer...
+*****************************************************************************
+Testing key length: 2, and first word length: 6
+Possible key: KS --> output: CAESARSWIFEMUSTBEABOVESUSPICION
+
+Time elapsed: 0.000000 seconds
+
+Testing key length: 3, and first word length: 7
+Possible key: JAY --> output: FORTUNEWHICHHASAGREATDEALOFPOWERINOTHERMATTERSBUTESPECIALLYINWARCANBRINGABOUTGREATCHANGESINASITUATIONTHROUGHVERYSLIGHTFORCES
+
+Time elapsed: 0.015649 seconds
+
+Testing key length: 4, and first word length: 10
+Possible key: IWKD --> output: EXPERIENCEISTHETEACHEROFALLTHINGS
+
+Time elapsed: 0.015654 seconds
+
+Testing key length: 5, and first word length: 11
+Possible key: ZIENF --> output: IMAGINATIONISMOREIMPORTANTTHANKNOWLEDGE
+
+Time elapsed: 0.046911 seconds
+
+Testing key length: 6, and first word length: 9
+Possible key: HACKER --> output: EDUCATIONISWHATREMAINSAFTERONEHASFORGOTTENWHATONEHASLEARNEDINSCHOOL
+
+Time elapsed: 0.215776 seconds
+
+Testing key length: 7, and first word length: 13
+Possible key: NICHOLS --> output: INTELLECTUALSSOLVEPROBLEMSGENIUSESPREVENTTHEM
+
+Time elapsed: 0.099000 seconds
+
+*****************************************************************************
+Total cracking time: 0.392990 seconds
+*****************************************************************************
+Entire program length: 0.768873 seconds
+*****************************************************************************
+
+Press enter to exit...
